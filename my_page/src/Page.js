@@ -9,6 +9,15 @@ class Page extends React.Component {
       <div id="page">
         <ContactCard />
         <div id="experience">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
           <ExperienceCard title="Student" content="" />
           <ExperienceCard title="Cyber Sequrity Research" content="" />
           <ExperienceCard title="Software Development" content="" />
