@@ -8,9 +8,15 @@ html {
   color: white;
   text-align: center;
   font-family: sans-serif;
+  background: url("./images/night_stars.gif");
 }
 
 #experience {
   background: url("./images/city8bit.jpg");
   color: white;
+}
+
+#competitions {
+  color: white;
+  background: url("./images/gradient.jpg");
 }
