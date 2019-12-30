@@ -36,11 +36,13 @@ class ContactCard extends React.Component {
   render() {
     return (
     <div id="ContactCard">
-      <img src={ProfilePic} height="200"></img>
+      <WhiteSpace noBreaks="3"></WhiteSpace>
+      <img src={ProfilePic} height="200" border="1px"></img>
       <h1>Devin Gluesing</h1>
       <h3>North Dakota State University</h3>
       <h3>devingluesing@gmail.com</h3>
       <a href="https://github.com/d3v1nG"><img src={GitHubLogo}></img></a>
+      <WhiteSpace noBreaks="3"></WhiteSpace>
       <br/>
     </div>
     );

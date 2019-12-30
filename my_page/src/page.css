@@ -9,15 +9,31 @@ html {
   text-align: center;
   font-family: sans-serif;
   background: url("./images/night_stars.gif");
+  /* background: url("./images/north_lights.png"); */
+  /* background: url("./images/drift.png"); */
+  /* background: url("./images/changing_sky.gif"); */
 }
 
 #experience {
   background: url("./images/city8bit.jpg");
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 #competitions {
   color: white;
-  background: url("./images/gradient.jpg");
+  /* background: url("./images/gradient.jpg"); */
+  /* background: url("./images/space_man_fire.png"); */
+  /* background: url("./images/drift.png"); */
+  background: url("./images/gaming.jpg");
+  -WEBKIT-BACKGROUND-SIZE: COVER;
+  -MOZ-BACKGROUND-SIZE: COVER;
+  -O-BACKGROUND-SIZE: COVER;
+  BACKGROUND-SIZE: COVER;
 }
+
+/* keeping this mama jama here for now */
+  /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover; */
+  /* background-size: cover; */
