@@ -10,7 +10,7 @@ class Page extends React.Component {
         <ContactCard />
         <div id="experience">
           <WhiteSpace noBreaks="5"></WhiteSpace>
-            <ExperienceCard title="Student" content="Currently a Computer Science student at North Dakota State University with a focus on cyber security. Projected graduation: 2022" />
+            <ExperienceCard title="Student" content="Computer Science student at North Dakota State University with a focus on cyber security. Projected graduation: 2022" />
             <ExperienceCard title="Cyber Security Research" content="Heavily involved with NDSU's Cybersecurity Student Association." />
             <ExperienceCard title="Software Development" subtitle="Software Developent Intern" content="Employed at Rural Computer Consultants out of Bird Island, MN" />
           <WhiteSpace noBreaks="5"></WhiteSpace>
