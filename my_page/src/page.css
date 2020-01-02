@@ -1,6 +1,29 @@
 html {
   background-color: black;
+  /* background-color: #3DCAD7; */
   font-family: sans-serif;
+  /* border-color: White;
+  border: 1px solid;
+  border-radius: 16px; */
+}
+
+/* #page {
+  border-color: White;
+  border: 1px solid;
+  border-radius: 16px;
+} */
+
+#pp {
+  border: 1px solid;
+  border-radius: 16px;
+  height: 200;
+}
+
+#heading {
+  border: 1px solid;
+  border-radius: 16px;
+  text-align: center;
+  padding: 25px;
 }
 
 #ContactCard {
@@ -18,18 +41,49 @@ html {
   background: url("./images/city8bit.jpg");
   color: white;
   text-align: left;
-}
-
-#competitions {
-  color: white;
-  /* background: url("./images/gradient.jpg"); */
-  /* background: url("./images/space_man_fire.png"); */
-  /* background: url("./images/drift.png"); */
-  background: url("./images/gaming.jpg");
+  padding: 200px;
   -WEBKIT-BACKGROUND-SIZE: COVER;
   -MOZ-BACKGROUND-SIZE: COVER;
   -O-BACKGROUND-SIZE: COVER;
   BACKGROUND-SIZE: COVER;
+}
+
+#competitions {
+  color: white;
+  background: url("./images/city_red.png");
+  -WEBKIT-BACKGROUND-SIZE: COVER;
+  -MOZ-BACKGROUND-SIZE: COVER;
+  -O-BACKGROUND-SIZE: COVER;
+  BACKGROUND-SIZE: COVER;
+  padding: 200px;
+}
+
+#darkred {
+  background: #2F0B47;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#lightred {
+  background: #861CAB;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#cyberblue {
+  background: #006080;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#darkblue {
+  background: #000040;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
 }
 
 /* keeping this mama jama here for now */
