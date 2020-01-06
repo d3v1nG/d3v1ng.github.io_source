@@ -1,3 +1,11 @@
+:root {
+  --cyberblue-background: #006080;
+  --cyberred-background: #861CAB;
+  --darkblue-background: #000040;
+  --darkred-background: #2F0B47;
+  --cyberpurp-background: #6300CA;
+}
+
 html {
   background-color: black;
   /* background-color: #3DCAD7; */
@@ -7,23 +15,37 @@ html {
   border-radius: 16px; */
 }
 
-/* #page {
-  border-color: White;
-  border: 1px solid;
-  border-radius: 16px;
-} */
-
 #pp {
   border: 1px solid;
   border-radius: 16px;
   height: 200;
 }
 
-#heading {
+#heading-blue {
   border: 1px solid;
   border-radius: 16px;
   text-align: center;
-  padding: 25px;
+  padding: 2px;
+  width: 220px;
+  background-color: var(--cyberblue-background);
+}
+
+#heading-red {
+  border: 1px solid;
+  border-radius: 16px;
+  text-align: center;
+  padding: 2px;
+  width: 220px;
+  background-color: var(--cyberred-background);
+}
+
+#heading-purp {
+  border: 1px solid;
+  border-radius: 16px;
+  text-align: center;
+  padding: 2px;
+  width: 220px;
+  background-color: var(--cyberpurp-background);
 }
 
 #ContactCard {
@@ -58,29 +80,40 @@ html {
   padding: 200px;
 }
 
+#technical {
+  background: url("./images/drift.png");
+  color: white;
+  text-align: left;
+  padding: 200px;
+  -WEBKIT-BACKGROUND-SIZE: COVER;
+  -MOZ-BACKGROUND-SIZE: COVER;
+  -O-BACKGROUND-SIZE: COVER;
+  BACKGROUND-SIZE: COVER;
+}
+
 #darkred {
-  background: #2F0B47;
+  background: var(--darkred-background);
   padding: 15px;
   border: 1px solid;
   border-radius: 16px;
 }
 
 #lightred {
-  background: #861CAB;
+  background: var(--cyberred-background);
   padding: 15px;
   border: 1px solid;
   border-radius: 16px;
 }
 
 #cyberblue {
-  background: #006080;
+  background: var(--cyberblue-background);
   padding: 15px;
   border: 1px solid;
   border-radius: 16px;
 }
 
 #darkblue {
-  background: #000040;
+  background: var(--darkblue-background);
   padding: 15px;
   border: 1px solid;
   border-radius: 16px;
