@@ -31,7 +31,7 @@ class Page extends React.Component {
 
         <div id="technical">
           <h1 id="heading-purp">Technical</h1>
-          <ExperienceList title="Languges" content="Python, C#(DotNet), Java, JavaScript" />
+          <ExperienceList title="Languges" textbackground="purp" content="Python, C#(DotNet), Java, JavaScript" /> <ExperienceList title="temp" content="ASP" />
         </div>
 
         <div id="footer">

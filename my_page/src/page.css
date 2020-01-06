@@ -45,7 +45,9 @@ html {
   text-align: center;
   padding: 2px;
   width: 220px;
-  background-color: var(--cyberpurp-background);
+  /* background-color: var(--cyberpurp-background); */
+  background-color: black;
+  color: white;
 }
 
 #ContactCard {
@@ -81,14 +83,15 @@ html {
 }
 
 #technical {
-  background: url("./images/drift.png");
-  color: white;
+  /* background: url("./images/drift.png"); */
+  background: url("./images/night_stars.gif");
+  color: black;
   text-align: left;
   padding: 200px;
-  -WEBKIT-BACKGROUND-SIZE: COVER;
+  /* -WEBKIT-BACKGROUND-SIZE: COVER;
   -MOZ-BACKGROUND-SIZE: COVER;
   -O-BACKGROUND-SIZE: COVER;
-  BACKGROUND-SIZE: COVER;
+  BACKGROUND-SIZE: COVER; */
 }
 
 #darkred {
@@ -100,6 +103,14 @@ html {
 
 #lightred {
   background: var(--cyberred-background);
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 16px;
+}
+
+#purp {
+  /* background: var(--cyberpurp-background); */
+  background-color: white;
   padding: 15px;
   border: 1px solid;
   border-radius: 16px;
