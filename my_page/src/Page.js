@@ -2,6 +2,7 @@ import React from 'react';
 import "./page.css";
 import ProfilePic from "./images/pp2.jpg";
 import GitHubLogo from "./images/GitHub-Mark-Light-64px.png";
+import Resume from "./Resume/Devin_Gluesing_Resume.docx";
 
 class Page extends React.Component {
   render() {
@@ -15,7 +16,8 @@ class Page extends React.Component {
             <ExperienceCard title="Cyber Security" textbackground="cyberblue" subtitle="Heavily involved with NDSU's Cybersecurity Student Association." content="Participated in 4 team competitions including CCDC, CPTC, Hivestorm, and NCL" />
             <br/>
             <ExperienceCard title="Software Development" textbackground="darkblue" subtitle="Software Development Intern" content="Employed at Rural Computer Consultants out of Bird Island, MN" />
-          <WhiteSpace noBreaks="5"></WhiteSpace>
+          <WhiteSpace noBreaks="3"></WhiteSpace>
+          <ResumeDownload />
         </div>
 
         <div id="competitions">
@@ -31,10 +33,13 @@ class Page extends React.Component {
 
         <div id="technical">
           <h1 id="heading-purp">Technical</h1>
-          <ExperienceList title="Languges" textbackground="purp" content="Python, C#(DotNet), Java, JavaScript" /> <ExperienceList title="temp" content="ASP" />
+          <ExperienceList title="Languges and Frameworks" textbackground="purp" content="Python, C# (DotNet), Java, JavaScript and ReactJS" />
+          <br/>
+          <ExperienceList title="Environments" textbackground="purp" content="Windows, Windows Servers, Kali Linux, Ubuntu, Raspbian" />
         </div>
 
         <div id="footer">
+          <FooterInfo />
         </div>
 
       </div>
@@ -69,6 +74,24 @@ const WhiteSpace = ({noBreaks} : {noBreaks: int}) => {
         {breaks}
       </div>
     );
+}
+
+class ResumeDownload extends React.Component {
+  render() {
+    return (
+      <a class="button" href={Resume}>Click here for my full resume!</a>
+    );
+  }
+}
+
+class FooterInfo extends React.Component {
+  render() {
+    return (
+      <div id="footer">
+        <p>Made from ReactJs, Hosted on GitHub Pages</p>
+      </div>
+    );
+  }
 }
 
 class ExperienceList extends React.Component {

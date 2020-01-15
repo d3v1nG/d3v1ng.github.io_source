@@ -72,6 +72,18 @@ html {
   BACKGROUND-SIZE: COVER;
 }
 
+.button {
+  font: 15px sans-serif;
+  text-decoration: none;
+  background-color: #006080;
+  color: white;
+  padding: 2px;
+  border-color: white;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid;
+}
+
 #competitions {
   color: white;
   background: url("./images/city_red.png");
@@ -110,10 +122,11 @@ html {
 
 #purp {
   /* background: var(--cyberpurp-background); */
-  background-color: white;
+  background-color: black;
   padding: 15px;
   border: 1px solid;
   border-radius: 16px;
+  color: white;
 }
 
 #cyberblue {
@@ -129,6 +142,12 @@ html {
   border: 1px solid;
   border-radius: 16px;
 }
+
+#footer {
+  color: white;
+}
+
+
 
 /* keeping this mama jama here for now */
   /* -webkit-background-size: cover; */
